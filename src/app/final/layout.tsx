@@ -18,10 +18,12 @@ export default function FinalLayout({
 }) {
   return (
     <div>
-      <section>
-        {children}
-      </section>
+     
+      <div
+        className=""
+      >
 
+      </div>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
@@ -32,6 +34,10 @@ export default function FinalLayout({
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
+
+      <section>
+        {children}
+      </section>
     </div>
   )
 }
