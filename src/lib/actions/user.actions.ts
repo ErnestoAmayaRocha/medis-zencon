@@ -3,9 +3,9 @@
 import { FilterQuery, SortOrder } from "mongoose";
 import { revalidatePath } from "next/cache";
 
-import User from "../models/user.model";
+import User from "../../models/user.model";
 
-import { connectToDB } from "../mongoose";
+import { connectToDB } from "../mongodb";
 
 interface Params {
   name: String;
