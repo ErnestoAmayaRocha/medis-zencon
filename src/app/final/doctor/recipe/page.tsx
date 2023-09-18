@@ -1,9 +1,9 @@
 import { Button } from '@/components/ui/button';
 
-export default function Home() {
+export default function Recipe() {
   return (
     <main>
-      <Button>Click me!</Button>
+      <Button>Click me 2!</Button>
     </main>
   )
 }
