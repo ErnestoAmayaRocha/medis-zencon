@@ -67,7 +67,8 @@ export async function POST({
   }
 }
 
-export function PUT() {
+export function PUT(req: Request, res: Response) {
+  console.log(req)
   return NextResponse.json({
     response: "PUT",
   });
